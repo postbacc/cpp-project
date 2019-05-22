@@ -6,10 +6,10 @@ public:
 	Dummy();
 	~Dummy();
 
-	void SomeMethod();
+	int SomeMethod(int in);
 
 private:
-	void some_var_;
+	int some_var_;
 };
 
 #endif	//DUMMY_H

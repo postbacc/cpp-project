@@ -9,6 +9,7 @@ Dummy::~Dummy(){
 	// destructor code here
 }
 
-void Dummy::SomeMethod(){
-	some_var_ = 1;
+int Dummy::SomeMethod(int in){
+	some_var_ = in+1;
+	return some_var_;
 }
