@@ -1,2 +1,2 @@
-# cpp-project
-cpp project template to be used with CSPB2270 homeworks and projects
+# VectorADT
+class assignment template for CSPB2270
