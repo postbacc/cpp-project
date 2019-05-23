@@ -3,27 +3,15 @@
 #include <gtest/gtest.h>
 #include "../code/Dummy.h"
 
-#include <fstream>
-#include <iostream>
-
 class test_Dummy : public ::testing::Test {
 protected:
-	static void SetUpTestCase(){
-	}
-
-	// This function runs only once Before any TEST_F function is called
-	static void TearDownTestCase(){
-	}
-
-	// This function runs only once After all TEST_F functions are called
-	void add_points_to_grade(int points){
-	}
-
 	// this function runs Before every single TEST_F function
-	void SetUp() override {}
+	void SetUp() override {
+    }
 
 	// this function runs After ever TEST_F function
-	void TearDown() override {}
+	void TearDown() override {
+    }
 };
 
 TEST_F(test_Dummy, YouCanPutAnyTextHere){

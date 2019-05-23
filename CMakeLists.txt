@@ -52,4 +52,6 @@ target_link_libraries( run_tests gtest_main )
 ENABLE_TESTING()
 
 # create an executable for main.cpp in app folder
-add_executable( run_app "app/main.cpp" ${USER_FILES} )
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/app/main.cpp")
+	add_executable( run_app "app/main.cpp" ${USER_FILES} )
+endif()

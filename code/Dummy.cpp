@@ -3,6 +3,7 @@
 
 Dummy::Dummy(){
 	// constructor code here
+	some_var_ = 0;
 }
 
 Dummy::~Dummy(){
