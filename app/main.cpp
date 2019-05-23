@@ -1,5 +1,6 @@
 #include <iostream>
-#include "../code/Dummy.h"
+// included required headers for ex.
+//#include "../code/Dummy.h"
 
 using namespace std;
 
@@ -9,8 +10,6 @@ int main(){
     cout << "Hello World, please enter a number " << endl;
     cin >> var;
     cout << "your number was : " << var << endl;
-
-    // use dumy class to implement some application
  
     return 0;
 }
