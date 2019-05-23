@@ -1,6 +1,6 @@
 #include <iostream>
 // included required headers for ex.
-//#include "../code/Dummy.h"
+#include "../code/Dummy.h"
 
 using namespace std;
 
